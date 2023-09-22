@@ -1,0 +1,9 @@
+name = "KuGouMusicDecoder"
+uuid = "999362f4-f9ea-4bf2-bd34-eb301bcff249"
+authors = ["xing0star <xing0star@live.hk>"]
+version = "0.1.0"
+
+[deps]
+CodecXz = "ba30903b-d9e8-5048-a5ec-d1f5b0d4b47b"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
