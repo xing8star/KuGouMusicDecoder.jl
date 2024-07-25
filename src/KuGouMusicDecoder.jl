@@ -36,7 +36,7 @@ const KUGOUKEYS=Ref(Vector{UInt8}())
 end
 function __init__()
     add_format(format"KGM",  MAGIC_HEADER, [".kgm"])
-    KUGOUKEYS[]=XzDecompressorStream(open(joinpath(@__DIR__,"..","kugou_key.xz")))|>read
+    KUGOUKEYS[]=XzDecompressorStream(open(joinpath(@__DIR__,"..","asset","kugou_key.xz")))|>read
 end
 mutable struct KuGouMusic
     const origin::IO
